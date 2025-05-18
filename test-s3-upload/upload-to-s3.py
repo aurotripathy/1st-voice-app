@@ -3,11 +3,9 @@ import os
 AWS_S3_BUCKET_NAME = 'aurovoice'
 AWS_REGION = 'us-east-2'
 
-# get these from the the env variables
+# get these from the env variables
 AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
-
-
 
 LOCAL_FILE = 'test_file2.txt'
 NAME_FOR_S3 = 'test_file2.txt'
