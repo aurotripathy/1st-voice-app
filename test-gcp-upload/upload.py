@@ -1,3 +1,6 @@
+# following the instructions from 
+# https://how.dev/answers/how-to-upload-a-file-to-google-cloud-storage-on-python-3
+
 from google.cloud import storage
 
 def upload_to_gcs(bucket_name, source_file_path, destination_blob_name, credentials_file):
