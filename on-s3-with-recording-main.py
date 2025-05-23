@@ -42,7 +42,7 @@ class Assistant(Agent):
 async def entrypoint(ctx: JobContext):
 
     # Set up text transcript recording (added)
-   # Add the following code to the top, before calling ctx.connect()
+    # Add the following code to the top, before calling ctx.connect()
     logger.debug(f'ctx.room.name: {ctx.room.name}')    
 
     logger.debug("creating egress request")
